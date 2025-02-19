@@ -1,0 +1,79 @@
+.reviews{
+    padding: 80px 0 0;
+    background: #fee6ed;
+    @media screen and(max-width:768px){
+        padding: 64px 0 0;
+    }
+}
+.reviews-inner {
+    position: relative;
+}
+.reviews-inner h2{
+    text-align: left;
+    @media screen and(max-width:768px){
+        max-width: 235px;
+    }
+    @media screen and(max-width:320px){
+        max-width: 135px;
+    }
+}
+.reviews-list{
+    width: 200%;
+    position: static !important;
+    @media screen and(max-width:768px){
+        max-width: 335px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.reviews-list .slick-track{
+    padding: 60px 0 112px;
+    @media screen and(max-width:768px){
+        padding: 40px 0 64px;
+    }
+}
+.reviews-item{
+    width: 446px;
+    margin-right: 40px;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and(max-width:768px){
+        margin: 0;
+        width: 100%;
+    }
+}
+.reviews-item-img{
+    width: 100px;
+    @media screen and(max-width:768px){
+        width: 29.85%;
+    }
+}
+
+.reviews-item-text{
+    width: 306px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #393939;
+    @media screen and(max-width:768px){
+        width: 64.17%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+.reviews-list .slick-arrow{
+    top: 0;
+    @media screen and(max-width:768px){
+        top: 24px;
+    }
+}
+.reviews-list .slick-next{
+    right: 20px;
+}
+.reviews-list .slick-prev{
+    right: 100px;
+    left: unset;
+    @media screen and(max-width:768px){
+        right: 70px;
+    }
+}
